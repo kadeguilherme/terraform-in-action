@@ -31,4 +31,4 @@ O livro Terraform in action fornece exemplos praticos que abragem os fundamentos
         </sub>
   </table>
 
-## 😄 Se gostou de algum clone deixa a sua estrela e o follow<br>
+## 😄 Se você gostou deste repositório, deixe a sua estrela e siga-nos.<br>
