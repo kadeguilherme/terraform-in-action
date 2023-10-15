@@ -8,15 +8,14 @@ Aplicacão web em três-camadas, também conhecida como arquitetura de três cam
 - Application layer: Responsável pela lógica
 - Data layer: Responsável pelo armazenamento dos dados da aplicacão
 A figura abaixo ilustra uma arquitetura de aplicaćao web 3-Tier:
-<img src="https://github.com/kadeguilherme/multi-tiered/blob/main/architeture/3-tier.png" alt="Card-01">
-
+![alt text](https://github.com/kadeguilherme/terraform-in-action/blob/main/cap-4/architeture/3-tier.png)
 
 
 
 ## Topology AWS
 <table>
   <td>
-<img src="https://github.com/kadeguilherme/multi-tiered/blob/main/architeture/diagram.png" alt="Card-01">
+<img src="https://github.com/kadeguilherme/terraform-in-action/blob/main/cap-4/architeture/diagram.png" alt="Card-01">
   </td>
 </table>
 
