@@ -7,7 +7,12 @@ Terraform é uma ferramenta de codigo de aberto voltado para Infraestrutura como
 O livro Terraform in action fornece exemplos praticos que abragem os fundamentos do Terraform, sua sintaxe, criacao de modulos reutilizaveis.
 
 ## Capitulo
-[Capitulo 4 - Deploying a multi-tiered web application in AWS](https://github.com/kadeguilherme/terraform-in-action/tree/main/cap-4)
+[Capitulo 1 - Getting started with Terraform]()<br>
+[Capitulo 2 - Life cycle of a Terraform resource]()<br>
+[Capitulo 3 - Functional programming]()<br>
+[Capitulo 4 - Deploying a multi-tiered web application in AWS](https://github.com/kadeguilherme/terraform-in-action/tree/main/cap-4)<br>
+[Capitulo 6 -  Terraform with friends]()<br>
+
 
 ## Referencia
 - [Terraform in action](https://www.oreilly.com/library/view/terraform-in-action/9781617296895/)
