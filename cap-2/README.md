@@ -33,3 +33,6 @@ Por ser um resource, *local_file* também implementar a interface de esquema do 
 Os dois recursos do Local provider consistem em um resource gerenciado e um data source não gerenciado. O resource gerenciado implementar CRUD completo, equanto o data source apenas **Read()**
 
 ![img](img/local_provider_full_crud.png)
+***
+
+> **Observação:** Para manter o repositorio organazado o codigo do terraform ficará na pasta **code** juntamente com o README contendo a explicacão

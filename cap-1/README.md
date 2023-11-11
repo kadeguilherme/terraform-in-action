@@ -38,4 +38,4 @@ Passos para fazer o deploy do projeto:
 
 O Terraform lê de arquivos de configuração para implantar infraestrutura. Para informar ao Terraform que queremos que ele implante uma instância EC2, precisamos declarar uma instância EC2 como código.
 
-> **Observação:** Para manter o repositorio organazado o codigo do terraform ficará na pasta **code**
+> **Observação:** Para manter o repositorio organazado o codigo do terraform ficará na pasta **code** juntamente com o README contendo a explicacão
