@@ -18,9 +18,9 @@ Nesse exemplo, o diretório .terraform ficará assim:
     │        └── registry.terraform.io
     │            └── hashicorp
     │                └── local
-    │                    └── 2.0.0
+    │                    └── 2.4.0
     │                        └── darwin_amd64
-    │                            └── terraform-provider-local_v2.0.0_x5
+    │                            └── terraform-provider-local_v2.4.0_x5
     ├── .terraform.lock.hcl
     └── main.tf
 
@@ -51,7 +51,8 @@ terraform plan -out plan.out && terraform apply "plan.out"
 Dois arquivos foram criados como resultado deste comando: art_of_war.txt e terraform .tfstate. Seu diretório atual (excluindo arquivos ocultos) agora está da seguinte forma:
 
     .
-    ├── art_of_war.txt
+    ├── book
+    | ├── art_of_war.txt
     ├── main.tf
     └── terraform.tfstate
 
