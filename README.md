@@ -10,6 +10,10 @@ O livro "Terraform in action" é destinado para quem quer aprender Terraform.<br
 Terraform é uma ferramenta de codigo de aberto voltado para Infraestrutura como Codigo(IaC) desenvolvida pela HashiCorp é usada amplamente utilizada para automatizar a criacao, configuracao e gerenciamento de recursos de infrastrutura em diversos provedores de nuvem.
 O livro Terraform in action fornece exemplos praticos que abragem os fundamentos do Terraform, sua sintaxe, criacao de modulos reutilizaveis.
 
+# Requisitos
+Durante a leitura do livro, a versão do meu Terraform:
+- terraform 1.6.3
+
 ## Capitulo
 [Capitulo 1 - Getting started with Terraform](https://github.com/kadeguilherme/terraform-in-action/tree/main/cap-1)<br>
 [Capitulo 2 - Life cycle of a Terraform resource]()<br>
