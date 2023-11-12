@@ -60,4 +60,33 @@ Dois arquivos foram criados como resultado deste comando: art_of_war.txt e terra
 O arquivo *terraform.tfstate* que você vê aqui é o arquivo state que o Terraform utiliza para manter o controle dos recursos que gerencia. Ele é usado para realizar comparações durante o plano e detectar diff na configuração.
 
 > **Warning**  É importante não editar, excluir ou de alguma forma interferir no arquivo terraform.tfstate, ou o Terraform poderá potencialmente perder o controle dos recursos que gerencia.
+***
 
+# Terraform refresh
+Terraform reconcilia o estado que ele conhece com o que está atualmente implantado. Isso pode ser feito com ```terraform refresh``` .
+
+Você pode pensar no "terraform refresh" como um "terraform plan" que também altera o arquivo de estado. É uma operação somente leitura que não modifica a infraestrutura gerenciada existente, apenas o estado do Terraform.
+
+Execute ```terraform refresh``` para reconciliar o estado do Terraform.
+
+Em seguida rode ```terraform show``` para ver que o arquivo state foi atualizado.
+***
+
+# Excluindo o resource local_file 
+Oara realizar a limpeza execute o comando ```terraform destroy```
+
+O ```terraform destroy``` primeiro gera um plano de execução como se não houvesse resource nos arquivos de configuração, realizando uma operação de leitura Read() em cada resource e marcando todos os resource existentes para exclusão. Isso pode ser observado na figura
+
+![img](../img/flow_deletion.png)
+
+
+Agora, o arquivo art_of_war.txt foi removido. O diretório atual é o seguinte:
+  
+    .
+    ├── book
+    |
+    ├── main.tf
+    └── terraform.tfstate
+    ├── terraform.tfstate.backup
+ 
+ Embora tenha desaparecido, sua memória persiste em um novo arquivo, ```terraform.tfstate.backup```. Este arquivo de backup é uma cópia do arquivo de estado anterior e está lá apenas para fins de arquivo. Normalmente, este arquivo não é necessário e pode ser excluído com segurança, se desejar, mas eu costumo deixá-lo. Nosso arquivo de estado atual está vazio 
