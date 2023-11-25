@@ -52,7 +52,7 @@ Dois arquivos foram criados como resultado deste comando: art_of_war.txt e terra
 
     .
     ├── book
-    | ├── art_of_war.txt
+         ├── art_of_war.txt
     ├── main.tf
     └── terraform.tfstate
 
@@ -73,7 +73,7 @@ Em seguida rode ```terraform show``` para ver que o arquivo state foi atualizado
 ***
 
 # Excluindo o resource local_file 
-Oara realizar a limpeza execute o comando ```terraform destroy```
+Para realizar a limpeza execute o comando ```terraform destroy```
 
 O ```terraform destroy``` primeiro gera um plano de execução como se não houvesse resource nos arquivos de configuração, realizando uma operação de leitura Read() em cada resource e marcando todos os resource existentes para exclusão. Isso pode ser observado na figura
 
@@ -89,4 +89,4 @@ Agora, o arquivo art_of_war.txt foi removido. O diretório atual é o seguinte:
     └── terraform.tfstate
     ├── terraform.tfstate.backup
  
- Embora tenha desaparecido, sua memória persiste em um novo arquivo, ```terraform.tfstate.backup```. Este arquivo de backup é uma cópia do arquivo de estado anterior e está lá apenas para fins de arquivo. Normalmente, este arquivo não é necessário e pode ser excluído com segurança, se desejar, mas eu costumo deixá-lo. Nosso arquivo de estado atual está vazio 
+ Embora tenha desaparecido, sua memória persiste em um novo arquivo, ```terraform.tfstate.backup```. Este arquivo de backup é uma cópia do arquivo de estado anterior e está lá apenas para fins de arquivo. Normalmente, este arquivo não é necessário e pode ser excluído com segurança, se desejar, mas eu costumo deixá-lo. Nosso arquivo de estado atual está vazio.

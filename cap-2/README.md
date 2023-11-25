@@ -12,7 +12,7 @@ Neste capítulo, foi abordardo os tópicos a seguir:
 ***
 
 ## Visão geral
-Nos vamos usar o resource *local_file* do provider Local no Terraform oara create, read, update e delete um arquivo de texto contendo os primeiros paragrafos do livro The Art of War.
+Nos vamos usar o resource *local_file* do provider Local no Terraform para create, read, update e delete um arquivo de texto contendo os primeiros paragrafos do livro The Art of War.
 
 Visão de geral da arquitetura. Inputs e outputs do cenário Sun Tzu.
 
@@ -25,14 +25,14 @@ Primeiro, nos vamos criar o resource. Depois, vamos simular um drift na configur
 
 
 ### Life cycle da funcão hooks
-Todos os resources do Terraform implementar a interface de esquema de resource. O Esquema do resource exique, entre outras coisa, que os resources definam CRUD functions hooks, um para cada um das operacões **Create()**, **Read()**,
+Todos os resources do Terraform implementar a interface de esquema de resource. O Esquema do resource requer, entre outras coisa, que os resources definam CRUD functions hooks, um para cada um das operacões **Create()**, **Read()**,
 **Update()** e **Delete()**.
 
-Por ser um resource, *local_file* também implementar a interface de esquema do resource. Isso significa que define functions hooks para **Create()**, **Read()**, **Update()** e **Delete()**. Isto é contraste do *local_file* data source, que implementar apenas **Read()**
+Por ser um resource, *local_file* também implementar a interface de esquema do resource. Isso significa que define functions hooks para **Create()**, **Read()**, **Update()** e **Delete()**. Isto é contraste do *local_file* **data source**, que implementar apenas **Read()**
 
 Os dois recursos do Local provider consistem em um resource gerenciado e um data source não gerenciado. O resource gerenciado implementar CRUD completo, equanto o data source apenas **Read()**
 
 ![img](img/local_provider_full_crud.png)
 ***
 
-> **Observação:** Para manter o repositorio organazado o codigo do terraform ficará na pasta **code** juntamente com o README contendo a explicacão
+> **Observação:** Para manter o repositorio organizado o codigo do terraform ficará na pasta **code** juntamente com o README contendo a explicacão
