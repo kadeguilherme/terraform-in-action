@@ -31,7 +31,7 @@ O provider Random para Terraform introduz um **random_shuffle** resource para em
 
 Como nos temos 5 listas, nos precisamos ter 5 **random_shuffle**. A figura abaixo ilustra isso:
 
-![img](../img/shuffling_lists.png)
+![img](../../img/shuffling_lists.png)
 
 [Documentacao do random_shuffle (Resource)](https://registry.terraform.io/providers/hashicorp/random/latest/ocs/resources/shuffle)
 
