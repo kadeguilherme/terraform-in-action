@@ -2,7 +2,7 @@
 No capitulo 3 o codigo progride gradualmente,optei por dividi-los em dois: 
 
 - generating_only_mad_libs_stories
-- generating_only_mad_libs_stories
+- generating_many_mad_libs_stories
 
 ### O generating only mad libs stories
 O diretorio *generating_only_mad_libs_stories* representa a primeira parte, na qual geraremos apenas uma historia, e a saida será mostrada no CLI. 

@@ -13,7 +13,7 @@ Neste capítulo, foi abordardo os tópicos a seguir:
 
 ## Visão geral
 
-A Functional programming é um paradigma de programação declarativo que permite realizar várias tarefas em uma única linha de código. Ao compor funções modulares pequenas, é possível dizer ao computador o que você deseja que ele faça, em vez de como fazer. A programação funcional recebe esse nome porque, como o próprio nome sugere, os programas consistem quase que inteiramente de funções. Os princípios fundamentais da programação funcional são os seguintes:
+A Functional programming é um paradigma de programação declarativo que permite realizar várias tarefas em uma única linha de código. Ao compor funções modulares pequenas, é possível dizer ao computador o que você deseja que ele faça, em vez de como fazer. A programação funcional recebe esse nome porque, como o próprio nome sugere, os programas Resolvidasconsistem quase que inteiramente de funções. Os princípios fundamentais da programação funcional são os seguintes:
 
 - Pure functions: As funções retornam o mesmo valor para os mesmos argumentos, sem nunca ter efeitos colaterais.
 
