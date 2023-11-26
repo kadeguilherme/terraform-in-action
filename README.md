@@ -16,8 +16,8 @@ Durante a leitura do livro, a versão do meu Terraform:
 
 ## Capitulo
 [Capitulo 1 - Getting started with Terraform](https://github.com/kadeguilherme/terraform-in-action/tree/main/cap-1)<br>
-[Capitulo 2 - Life cycle of a Terraform resource]()<br>
-[Capitulo 3 - Functional programming]()<br>
+[Capitulo 2 - Life cycle of a Terraform resource](https://github.com/kadeguilherme/terraform-in-action/tree/main/cap-2)<br>
+[Capitulo 3 - Functional programming](https://github.com/kadeguilherme/terraform-in-action/tree/main/cap-3)<br>
 [Capitulo 4 - Deploying a multi-tiered web application in AWS](https://github.com/kadeguilherme/terraform-in-action/tree/main/cap-4)<br>
 [Capitulo 6 -  Terraform with friends]()<br>
 
